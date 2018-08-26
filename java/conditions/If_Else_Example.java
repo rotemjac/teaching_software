@@ -10,9 +10,8 @@ public class If_Else_Example {
 	int month;
 	int week;
 	int day;
-	int second;
+    double second;
 	int check;
-	int kind;
 	
 	
 	
@@ -22,10 +21,11 @@ public class If_Else_Example {
 	year=month*12;
 	week=month/4;
 	day=week/5;
-	second=day/28800;	
+	//https://stackoverflow.com/questions/4931892/why-does-the-division-of-two-integers-return-0-0-in-java
+	second=(double)(day)/28800;	
 		
 	System.out.println("If you want to see how much money you earn per\n" + 
-		  "year press 1\n "
+		   "year press 1\n "
 		  + "month press 2\n"
 		  + "week press 3\n" 
 		  + "day press 4\n"
@@ -38,8 +38,6 @@ else if (check == 2){System.out.println(month);}
 else if (check == 3) {System.out.println(week);}			
 else if (check== 4) {System.out.println(day);}	
 else if (check== 5) 	{System.out.println(second);}
-
-
 
 	}
 	}
