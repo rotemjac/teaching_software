@@ -8,14 +8,13 @@ import (
 func main() {
 
 	str := "SOME STRING"
+	fmt.Println(str)
 
 	lower := strings.ToLower(str)
-
 	fmt.Println(lower)
 
 	//Split a string
 	sentence := "Sometimes I lay under the moon and thanks god i'm breathing"
-
 	words := strings.Split(sentence, " ")
 
 	fmt.Printf("%v \n", words)
