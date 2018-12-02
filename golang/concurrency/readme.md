@@ -4,5 +4,6 @@ Goroutines are the smallest Go entities that can be executed on their own in a G
 communicate with each other.
 
 
+
 Everything in Go is executed using goroutines; this makes perfect sense since Go is a concurrent programming language by design.
 Therefore, when a Go program starts its execution, its single goroutine calls the main() function, which starts the actual program execution.
