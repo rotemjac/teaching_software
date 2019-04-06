@@ -4,26 +4,26 @@ Project for teaching languages like Java, Python, Javascript, etc'
 
 Topics:
 
-1_variables
+1_Variables
 
-2_Input_ouput
+2_Types
 
-3_Math_actions
+3_Input_ouput
 
-4_Conditions
+4_Conditions (If-else, Switch-Case).
 
-5_Loops
+5_Loops (For, While, ForEach)
 
-6_Arrays
+6_Data containers (Arrays, Slices, Lists, Linked lists..)
 
-7_functions
+7_Functions
 
-8_pointers
+8_Pointers (If exist in language)
 
-9_Classes_objects
+9_Classes_objects (If exist in language)
 
-10_Inheritance
+10_Inheritance (If exist in language)
 
-11_Pholymorphism
+11_Pholymorphism (If exist in language)
 
-12_Interfaces
+12_Interfaces (If exist in language)
