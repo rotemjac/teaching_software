@@ -1,5 +1,5 @@
 # teaching_software
-Project for teaching languages like Java, phyton, javascript, etc'
+Project for teaching languages like Java, Python, Javascript, etc'
 
 
 Topics:
@@ -18,10 +18,12 @@ Topics:
 
 7_functions
 
-8_Classes_objects
+8_pointers
 
-9_Inheritance
+9_Classes_objects
 
-10_Pholymorphism
+10_Inheritance
 
-11_Interfaces
+11_Pholymorphism
+
+12_Interfaces
