@@ -1,4 +1,11 @@
 
+1. Please see this reference for understaning of the process of client-server sockets
+https://realpython.com/python-sockets/
+
+2. You can see that we uses encode() and decode() methods. This is because
+   if you don't do it - you'll get: TypeError: a bytes-like object is required, not 'str'
+
+
 with lsof -i:8080 you will see the socket connection:
 
 COMMAND   PID  USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
