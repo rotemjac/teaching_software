@@ -19,9 +19,11 @@ class Person:
     def __init__(self):
         self.__id = 000
 
+    # Setter
     def set_id(self, new_id):
         self.__id = new_id
 
+    # Getter
     def get_id(self):
         return self.__id
 

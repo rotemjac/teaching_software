@@ -1,12 +1,12 @@
-arr = [100, 200, 300, 400, 500]
+list = [100, 200, 300, 400, 500]
 
 # In python we use the "for..in" loop - An example for basic loop syntax
-for item in arr:
+for item in list:
     print(item*2.5)
 print("--------------------")
 
 # You can add a "else" at the end
-for item in arr:
+for item in list:
 	print(item)
 	last_item_printed = item
 else:
@@ -15,7 +15,7 @@ else:
 print("--------------------")
 
 # Using break, continue, pass
-for item in arr:
+for item in list:
 	if item < 300:
 		pass
 		print(item," - Small item") # will print after pass

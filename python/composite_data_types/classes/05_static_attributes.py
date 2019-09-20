@@ -52,3 +52,4 @@ city2.country = "Mexico"
 print("After changing a class attribute from the city2 object - City.country="  , City.country)  # Prints USA
 print("After changing a class attribute from the city2 object - city1.country=" , city1.country) # Prints USA
 print("After changing a class attribute from the city2 object - city2.country=" , city2.country) # Prints Mexico
+print(city2.__dict__)
